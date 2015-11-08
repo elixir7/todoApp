@@ -2,7 +2,7 @@ module TodoListHelpers
 	#Imports into all todo_items so that you don't repeat yourself, DRY.
 	def visit_todo_list(list)
 		visit "/todo_lists"
-		within "#todo_list_#{list.id}" do
+		within dom_id_for(list) do
 			click_link "List Items"
 		end	
 	end
