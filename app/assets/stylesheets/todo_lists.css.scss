@@ -3,9 +3,29 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 table.todo_lists {
-  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin: 1em 0 1em 0;
+  padding: 2em;
 
+  td.functions {
+    margin: 1em 0 0 0;
+    padding: 0;
+    float: left;
+    font-size: 0.8em;
+    clear: both;
+
+  	button-function {
+      	margin: 0 1em 0 0;
+      	padding: 0;
+      	float: left;
+    }
+  }
   th {
     text-align: left;
   }
+  .line{
+  	border-bottom: 1px solid black;
+  }
 }
+

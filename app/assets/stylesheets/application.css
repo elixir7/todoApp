@@ -50,9 +50,10 @@ div.nav {
   padding: 10px 0 0 5px;
 }
 
-div.nav h1 {
+div.nav h2, div.nav h2 a, div.nav h2 a:visited {
   float: left;
   margin: 0 1em 0 0;
+  color: #333;
 }
 
 div.nav a { text-decoration: none !important; }
@@ -73,11 +74,22 @@ div.nav ul li a {
   display: block;
   width: auto;
   padding: 8px 10px 8px 10px;
+  color: #62B1F6;
   background: #eee;
-  color: #aaa;
+}
+div.nav ul li a:hover {
+  color: #ffffff;
+  background-color: #62B1F6;
 }
 
-div.nav ul li a:hover {
-  background: #aaa;
-  color: #eee;
+a, a:visited{
+  background: #ffffff;
+  color: #62B1F6;
+  text-decoration: none;
+}
+
+a:hover{
+  font-weight: bold;
+  background: #ffffff;
+  color: #62B1F6;
 }
